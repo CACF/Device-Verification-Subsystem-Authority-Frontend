@@ -41,7 +41,7 @@ NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS 
 		display: block;
 		font-size: 0.95rem;
 		font-weight: 500;
-		color: #3f51b5;
+		color: $theme-primary;
 		white-space: nowrap;
 		-ms-transform: translateX(-50%);
 		-moz-transform: translateX(-50%);
@@ -65,7 +65,7 @@ NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS 
 		-moz-border-radius: 50%;
 		-webkit-border-radius: 50%;
 		border-radius: 50%;
-		background: #3f51b5;
+		background: $theme-primary;
 		-ms-animation-timing-function: cubic-bezier(0, 1, 1, 0);
 		-moz-animation-timing-function: cubic-bezier(0, 1, 1, 0);
 		-webkit-animation-timing-function: cubic-bezier(0, 1, 1, 0);
@@ -187,7 +187,7 @@ NO EXPRESS OR IMPLIED LICENSES TO ANY PARTY'S PATENT RIGHTS ARE GRANTED BY THIS 
 			width: 5px;
 			height: 5px;
 			border-radius: 50%;
-			background: #3f51b5;
+			background: $theme-primary;
 			margin: -2px 0 0 -2px;
 		}
 

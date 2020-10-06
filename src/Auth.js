@@ -56,7 +56,7 @@ class Auth extends Component {
       clientId: clientId
     });
 
-    kc.init({ onLoad: "login-required" })
+    kc.init({ onLoad: "login-required", 'checkLoginIframe' : false })
       .success(authenticated => {
         if (authenticated) {
           this.setState({ keycloak: kc, authenticated: authenticated });

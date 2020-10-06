@@ -1,5 +1,6 @@
 // core overrides
-$navbar-bg:                           #3f51b5 !default;
+$theme-primary:                       #d71921 !default;
+$navbar-bg:                           $theme-primary !default;
 $navbar-height:                       55px !default;
 $sidebar-width:                       230px;
 $navbar-brand-logo:                   transparent !default;
